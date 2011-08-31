@@ -1,6 +1,8 @@
 toHistorage
 ===========
 
+What's this?
+------------
 This tool converts an ordinary Git repository to a fine-grained version control repository, Historage.
 
 You can trace the history of fine-grained entities in Java, such as fields, constrictors, methods, and classes.
@@ -16,7 +18,7 @@ How to use
 
 Author
 ------
-* hdrky[at]gmail.com
+hdrky[at]gmail.com
 
 License
 -------
