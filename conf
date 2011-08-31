@@ -1,0 +1,7 @@
+TARGET=/path/to/git/repository
+TMP_DIR=/path/to/tmp
+HISTORAGE=/path/to/Historage
+
+TARGET=/Volumes/RAID0/base/exp/data/git/eclipse/org.eclipse.webtools.incubator
+TMP_DIR=/Volumes/ramdisk/tmp
+HISTORAGE=/Volumes/ramdisk/Historage
