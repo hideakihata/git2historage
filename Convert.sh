@@ -1,8 +1,5 @@
 #!/bin/sh
 
-
-date
-
 if [ ! -f ./conf ]; then
     echo "[ERR] Cannot find ./conf"
     exit
@@ -41,9 +38,6 @@ cd -
 
 echo '[3] finishing...'
 git clone file://$GIT_TMP $HISTORAGE
-rm -rf $GIT_TMP $ELSE_DIR
-
-
-date
+rm -rf $GIT_TMP $TMP_DIR
 
 exit 0
