@@ -17,7 +17,7 @@ MASU_PATH=$MASU_DIR/bin/:$MASU_DIR/lib/antlr.jar:$MASU_DIR/lib/asm-all-3.3.jar:$
 
 
 rm -rf $GIT_TMP $ELSE_DIR $HISTORAGE
-mkdir $ELSE_DIR
+mkdir $TMP_DIR $ELSE_DIR
 
 echo '[1] cloning to tmporal repository...'
 git clone file://$TARGET $GIT_TMP
