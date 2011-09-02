@@ -16,11 +16,11 @@ PERL_DIR=$HERE/perl
 MASU_PATH=$MASU_DIR/bin/:$MASU_DIR/lib/antlr.jar:$MASU_DIR/lib/asm-all-3.3.jar:$MASU_DIR/lib/commons-cli-1.1.jar
 
 
-rm -rf $GIT_TMP $ELSE_DIR $HISTORAGE
+rm -rf $GIT_TMP $ELSE_DIR $HISTORAGE_REPOSITORY
 mkdir $TMP_DIR $ELSE_DIR
 
 echo '[1] cloning to tmporal repository...'
-git clone file://$TARGET $GIT_TMP
+git clone file://$GIT_REPOSITORY $GIT_TMP
 
 echo '[2] reconstructing...'
 cd $GIT_TMP
@@ -37,7 +37,7 @@ git filter-branch \
 cd -
 
 echo '[3] finishing...'
-git clone file://$GIT_TMP $HISTORAGE
+git clone file://$GIT_TMP $HISTORAGE_REPOSITORY
 rm -rf $GIT_TMP $TMP_DIR
 
 exit 0
