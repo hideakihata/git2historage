@@ -1,8 +1,8 @@
 git2historage (Legacy)
 =============
 This repository has been deprecated.
-- Please use this software: [niyaton/kenja](https://github.com/niyaton/kenja).
-- [Kataribe](http://sdlab.naist.jp/kataribe/) is a hosting service of Historage repositories.
+* Please use this software: [niyaton/kenja](https://github.com/niyaton/kenja).
+* [Kataribe](http://sdlab.naist.jp/kataribe/) is a hosting service of Historage repositories.
 
 What's Historage?
 -----------------
