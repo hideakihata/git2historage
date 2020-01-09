@@ -2,7 +2,7 @@ git2historage (Legacy)
 =============
 This repository has been deprecated.
 
-- Please use [sh5i/git-stein](https://github.com/sh5i/git-stein>).
+- Please use [sh5i/git-stein](https://github.com/sh5i/git-stein).
 
 What's Historage?
 -----------------
